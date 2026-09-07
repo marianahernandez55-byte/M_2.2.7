@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Caja', 'diente', 'estrella', 'mouse', 'squishy']
+
+roboflow:
+  workspace: mariana-isabel-hernandez-vazquez
+  project: detector_5_objetos-ioduz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mariana-isabel-hernandez-vazquez/detector_5_objetos-ioduz/dataset/1
